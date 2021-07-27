@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Em and Rem</title>
+</head>
+<body>
+    
+        <h1>USE EMS TO SET MARGIN AND PADDING</h1>
+
+        <p>Setting margin and padding with 'em' value will be quite useful when you want to size the element aginst its font-size.</p>
+        <p class="example">Here is an example of this. In this example I set all buttons' padding with 1em for top and bottom, and 2em for left and right. I set the font sizes increasingly with rem unit. So padding gets larger when the font-size gets larger. This method can be used in elements like buttons.</p>
+        <section>
+        <a class="btn btn-sm">SMALL</a>
+        <a class="btn btn-md">MEDIUM</a>
+        <a class="btn btn-lg">LARGE</a>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1>USE REMS FOR FONT-SIZE</h1>
+        <P>Setting font size with em unit can cause problems since em is compounding the parent's font-size value.</P>
+        <p class="example">Here is an example of how it can cause problem.</p>
+        <br>
+        <br>
+        <ul>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+            <ul>
+                <li>List A</li>
+                <li>List B</li>
+                <li>List C</li>
+                <ul>
+                    <li>List K</li>
+                    <li>List L</li>
+                    <li>List M</li>
+                </ul>
+            </ul>
+        </ul>
+    
+</body>
+</html>
